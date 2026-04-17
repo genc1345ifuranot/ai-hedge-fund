@@ -28,7 +28,7 @@ This system employs several agents working together:
 
 Note: the system does not actually make any trades.
 
-> **Personal note:** I'm using this project to learn how LLM agents can be composed into multi-agent workflows. My main interest is in comparing how different investor personas weight the same financial data differently.
+> **Personal note:** I'm using this project to learn how LLM agents can be composed into multi-agent workflows. My main interest is in comparing how different investor personas weight the same financial data differently. I find the Ben Graham and Nassim Taleb agents particularly interesting to compare — one focuses on margin of safety through undervaluation, the other through asymmetric risk exposure.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -46,9 +46,4 @@ By using this software, you agree to use it solely for learning purposes.
 
 ## Table of Contents
 - [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#licens
+- [How to R
