@@ -104,11 +104,11 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data from Financial Modeling Prep
-FINANCIAL_MODELING_PREP_API_KEY=your-fmp-api-key
+# For getting financial data (required)
+FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
-# For getting financial data from Polygon.io
+# For getting financial news and filings via Polygon.io (optional)
 POLYGON_API_KEY=your-polygon-api-key
 ```
 
-> **Note (personal):** I've found that at minimum you need either `OPENAI_API_KEY` or `GROQ_API_KEY` to get started. FMP and Polygon keys unlock richer data but the app will still run with just an LLM key for basic testing.
+> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` first is the most important step — the app won't return useful data without it.
