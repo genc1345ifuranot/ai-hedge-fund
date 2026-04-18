@@ -68,6 +68,8 @@ The API will be available at:
 - API Documentation: http://localhost:8001/docs
 - Interactive Docs (ReDoc): http://localhost:8001/redoc
 
+> **Personal note:** I also run a local Ollama instance for offline testing. To point the backend at a local model, set `OPENAI_API_BASE=http://localhost:11434/v1` in your `.env` file along with the appropriate model name.
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -96,5 +98,4 @@ app/backend/
 
 This project is for **educational and research purposes only**.
 
-- Not intended for real trading or investment
-- No warranties
+- Not 
