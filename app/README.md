@@ -104,11 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data (required)
+# For getting financial data (required for stock prices, financials, etc.)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
-
-# For getting financial news and filings via Polygon.io (optional)
-POLYGON_API_KEY=your-polygon-api-key
 ```
 
-> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` first is the most important step — the app won't return useful data without it.
+> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` early saves a lot of debugging time — many agents silently fail without it.
