@@ -38,12 +38,13 @@ requires = ["poetry-core"]
 build-backend = "poetry-core.masonry.api"
 
 [tool.black]
-line-length = 100
+# Personal preference: slightly shorter lines for better readability on split screens
+line-length = 88
 target-version = ["py311"]
 
 [tool.isort]
 profile = "black"
-line_length = 100
+line_length = 88
 
 [tool.mypy]
 python_version = "3.11"
