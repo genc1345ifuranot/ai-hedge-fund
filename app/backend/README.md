@@ -85,8 +85,7 @@ The API will be available at:
 
 ```
 app/backend/
-├── api/                      # API layer (future expansion)
-├── models/                   # Domain models
-│   ├── __init__.py
-│   └── schemas.py            # Pydanti
+├── main.py          # FastAPI app entry point and route definitions
+├── models.py        # Pydantic request/response models
+├── README.md        # This file
 ```
