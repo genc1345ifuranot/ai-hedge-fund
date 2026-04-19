@@ -74,6 +74,8 @@ The API will be available at:
 
 > **Tip:** You can also run the server with `--host 0.0.0.0` if you need to access it from another device on your local network (e.g. testing from a phone or another machine).
 
+> **Tip:** To enable verbose request logging during development, set `LOG_LEVEL=debug` in your `.env` file. This is helpful when debugging agent decisions or tracing API calls.
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -86,9 +88,5 @@ app/backend/
 ├── api/                      # API layer (future expansion)
 ├── models/                   # Domain models
 │   ├── __init__.py
-│   └── schemas.py            # Pydantic schema definitions
-├── routes/                   # API routes
-│   ├── __init__.py           # Router registry
-│   ├── hedge_fund.py         # Hedge fund endpoints
-│   └── heal
+│   └── schemas.py            # Pydanti
 ```
