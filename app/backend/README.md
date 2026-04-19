@@ -76,6 +76,8 @@ The API will be available at:
 
 > **Tip:** To enable verbose request logging during development, set `LOG_LEVEL=debug` in your `.env` file. This is helpful when debugging agent decisions or tracing API calls.
 
+> **Personal note:** I run this alongside a Jupyter notebook session for exploratory analysis. I keep the server on port 8001 and Jupyter on 8888 to avoid any conflicts.
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -84,8 +86,5 @@ The API will be available at:
 ## Project Structure
 
 ```
-app/backend/
-├── main.py          # FastAPI app entry point and route definitions
-├── models.py        # Pydantic request/response models
-├── README.md        # This file
+a
 ```
