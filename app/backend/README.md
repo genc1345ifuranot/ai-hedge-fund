@@ -70,6 +70,8 @@ The API will be available at:
 
 > **Personal note:** I also run a local Ollama instance for offline testing. To point the backend at a local model, set `OPENAI_API_BASE=http://localhost:11434/v1` in your `.env` file along with the appropriate model name.
 
+> **Tip:** If port 8001 is already in use (e.g. by another project), you can use `--port 8002` instead. I keep a note of this because I frequently run multiple FastAPI services locally.
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -89,13 +91,5 @@ app/backend/
 │   └── health.py             # Health check endpoints
 ├── services/                 # Business logic
 │   ├── graph.py              # Agent graph functionality
-│   └── portfolio.py          # Portfolio management
-├── __init__.py               # Package initialization
-└── main.py                   # FastAPI application entry point
+│   └── portfolio.py          # Portfol
 ```
-
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-
-- Not 
