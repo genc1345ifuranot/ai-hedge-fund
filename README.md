@@ -32,14 +32,8 @@ Note: the system does not actually make any trades.
 
 > **My workflow:** I typically run this against a watchlist of 5–10 tickers at a time and log the per-agent signals to a CSV so I can review disagreements between agents (e.g. when Buffett is bullish but Taleb flags tail risk). That divergence is often the most instructive part.
 
+> **Agents I find most useful for my style:** Ben Graham, Charlie Munger, and Nassim Taleb. I tend to discount the Cathie Wood agent for my own analysis since I'm not focused on high-growth/disruptive plays, but it's useful as a contrasting view.
+
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
-## Disclaimer
-
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No investment advice or guarantees provided
-- Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-- Past perfo
+## Disclai
