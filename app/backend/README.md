@@ -72,6 +72,8 @@ The API will be available at:
 
 > **Tip:** If port 8001 is already in use (e.g. by another project), you can use `--port 8002` instead. I keep a note of this because I frequently run multiple FastAPI services locally.
 
+> **Tip:** You can also run the server with `--host 0.0.0.0` if you need to access it from another device on your local network (e.g. testing from a phone or another machine).
+
 ## API Endpoints
 
 - `POST /hedge-fund/run`: Run the AI Hedge Fund with specified parameters
@@ -88,8 +90,5 @@ app/backend/
 ├── routes/                   # API routes
 │   ├── __init__.py           # Router registry
 │   ├── hedge_fund.py         # Hedge fund endpoints
-│   └── health.py             # Health check endpoints
-├── services/                 # Business logic
-│   ├── graph.py              # Agent graph functionality
-│   └── portfolio.py          # Portfol
+│   └── heal
 ```
