@@ -107,5 +107,6 @@ GROQ_API_KEY=your-groq-api-key
 # For getting financial data (required)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 
-# Note: At minimum you need an LLM key (OpenAI or Groq) and the financial data key.
+# Optional: For running LLMs hosted by anthropic (claude, etc.)
+ANTHROPIC_API_KEY=your-anthropic-api-key
 ```
