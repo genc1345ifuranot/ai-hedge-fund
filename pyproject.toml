@@ -51,8 +51,12 @@ python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
+# Also ignore errors in generated or third-party stubs I don't control
+disallow_untyped_defs = false
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
+# Show extra summary info for skipped and failed tests
+addopts = "-v --tb=short"
